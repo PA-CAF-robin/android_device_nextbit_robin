@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-
 Copyright (c) 2014, The Linux Foundation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -27,9 +26,21 @@ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
 -->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
 <resources>
-    <!-- Enable doze mode -->
-    <bool name="doze_display_state_supported">true</bool>
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_active" id="0x10803f2" />
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_blocked_mic_yellow" id="0x10803f4" />
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_blocked_mic_red" id="0x10803f3" />
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_low_battery" id="0x10803f5" />
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_positioning_problem" id="0x10803f6" />
+  <!-- @hide -->
+  <public type="drawable" name="digital_pen_background_side_channel" id="0x10803f7" />
 </resources>
