@@ -95,11 +95,11 @@ AUDIO_POLICY += audio_policy.msm8994
 AUDIO_POLICY += audio_policy.msm8992
 
 #tinyalsa test apps
-TINY_ALSA_TEST_APPS := tinyplay
-TINY_ALSA_TEST_APPS += tinycap
-TINY_ALSA_TEST_APPS += tinymix
-TINY_ALSA_TEST_APPS += tinypcminfo
-TINY_ALSA_TEST_APPS += cplay
+#TINY_ALSA_TEST_APPS := tinyplay
+#TINY_ALSA_TEST_APPS += tinycap
+#TINY_ALSA_TEST_APPS += tinymix
+#TINY_ALSA_TEST_APPS += tinypcminfo
+#TINY_ALSA_TEST_APPS += cplay
 
 #AMPLOADER
 AMPLOADER := amploader
@@ -478,7 +478,7 @@ MM_CORE += libOmxCore
 
 #MM_VIDEO
 MM_VIDEO := ast-mm-vdec-omx-test
-MM_VIDEO += libdivxdrmdecrypt
+#MM_VIDEO += libdivxdrmdecrypt
 MM_VIDEO += liblasic
 MM_VIDEO += libOmxVdec
 MM_VIDEO += libOmxVdecHevc
@@ -648,7 +648,7 @@ PRODUCT_PACKAGES += $(ANGLE)
 PRODUCT_PACKAGES += $(APPOPS_POLICY)
 PRODUCT_PACKAGES += $(AUDIO_HARDWARE)
 PRODUCT_PACKAGES += $(AUDIO_POLICY)
-PRODUCT_PACKAGES += $(TINY_ALSA_TEST_APPS)
+#PRODUCT_PACKAGES += $(TINY_ALSA_TEST_APPS)
 PRODUCT_PACKAGES += $(AMPLOADER)
 PRODUCT_PACKAGES += $(APPS)
 PRODUCT_PACKAGES += $(BRCTL)

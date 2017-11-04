@@ -4,7 +4,6 @@
 
 # Audio
 af.fast_track_multiplier=1
-audio.acdb.name=NBQ
 audio.deep_buffer.media=true
 audio_hal.period_size=192
 audio.offload.buffer.size.kb=32
